@@ -1,0 +1,16 @@
+{
+  "name": "test_get_twitch_m3u8_urls",
+  "version": "1.0.0",
+  "description": "script to get urls of m3u8 stream video from twitch's channels",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "twitch-m3u8": "^1.1.5",
+    "youtube-stream-url": "^2.0.2",
+    "yt-live-url": "^1.0.1",
+    "yt-url-parser": "^1.0.1"
+  }
+}
